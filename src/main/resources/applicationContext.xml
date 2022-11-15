@@ -7,9 +7,9 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="testBean"
-          class="ru.ringodev.springcourse.TestBean">
-        <constructor-arg value="Azat"/>
+    <bean id="musicBean"
+          class="ru.ringodev.springcourse.ClassicalMusic">
+        
     </bean>
 
 </beans>
