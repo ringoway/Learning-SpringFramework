@@ -12,4 +12,9 @@
         
     </bean>
 
+    <bean id = "musicPlayer"
+        class="ru.ringodev.springcourse.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
+
 </beans>
