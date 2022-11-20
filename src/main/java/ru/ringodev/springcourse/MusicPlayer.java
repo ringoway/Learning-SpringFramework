@@ -4,6 +4,15 @@ public class MusicPlayer {
     private Music music;
     private String name;
     private int volume;
+    private String playerType;
+
+    public String getPlayerType() {
+        return playerType;
+    }
+
+    public void setPlayerType(String playerType) {
+        this.playerType = playerType;
+    }
 
     public String getName() {
         return name;
