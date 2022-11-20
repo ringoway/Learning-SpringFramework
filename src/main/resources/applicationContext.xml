@@ -18,6 +18,7 @@
         <property name="music" ref="musicBean"/>
         <property name="name" value="${musicPlayer.name}"/>
         <property name="volume" value="${musicPlayer.volume}"/>
+        <property name="playerType" value="${musicPlayer.playerType}"/>
     </bean>
 
 </beans>
